@@ -12,7 +12,7 @@
   position: absolute;
   top: calc(50% - 170px);
   left: calc(50% - 270px);
-  padding-bottom: 80px;
+  padding-bottom: 75px;
   padding-top: 25px;
   padding-left: 100px;
   padding-right: 100px;
@@ -63,4 +63,20 @@
   background-color: rgb(243, 0, 2);
   margin-left: calc(50% - 33px);
   margin-bottom: 10px;
+  /* animation */
+}
+.button:hover {
+  background-color: rgb(203, 0, 0);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: rgb(243, 0, 2);
+  border: 4px inset rgb(0, 202, 224);
+}
+
+.greet-msg {
+  margin-top: 5px;
+  color: rgb(203, 0, 0);
+  text-align: center;
 }
