@@ -84,7 +84,6 @@ button {
 }
 
 .occupation {
-  width: 200px;
   background-color: rgba(139, 203, 255, 0.507);
   border: 1px dotted rgb(154, 198, 242);
   border-radius: 10px;
