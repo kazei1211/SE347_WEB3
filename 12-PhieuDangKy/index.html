@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Phiểu đăng ký</title>
+  </head>
+  <body>
+    <h1 class="page-title">Phiếu đăng ký</h1>
+    <div class="container">
+      <table class="field-container">
+        <tbody>
+          <!-- Name input field -->
+          <tr class="field">
+            <td><label for="name">Họ và tên</label></td>
+            <td>
+              <input
+                class="text-box user-name"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nhập họ và tên"
+              />
+            </td>
+          </tr>
+
+          <!-- address input field -->
+          <tr class="field">
+            <td><label for="address">Địa chỉ</label></td>
+            <td>
+              <textarea
+                class="text-box address"
+                name="address"
+                id="address"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </td>
+          </tr>
+
+          <!-- email -->
+          <tr class="field">
+            <td><label for="email">Email</label></td>
+            <td>
+              <input
+                class="text-box email"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Nhập email"
+              />
+            </td>
+          </tr>
+
+          <!-- phone -->
+          <tr class="field">
+            <td><label for="phone">Số điện thoại</label></td>
+            <td>
+              <input
+                class="text-box phone-number"
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Nhập số điện thoại"
+              />
+            </td>
+          </tr>
+          <!-- gender radio button -->
+          <tr class="field">
+            <td><label class="gender">Giới tính</label></td>
+            <td>
+              <input type="radio" id="male" />&nbsp;Nam
+              <input type="radio" id="female" />&nbsp;Nữ
+            </td>
+          </tr>
+
+          <!-- list -->
+          <tr class="field">
+            <td><label for="occupation">Nghề nghiệp</label></td>
+            <td>
+              <select id="occupation">
+                <option value="1">Sinh viên</option>
+                <option value="2">Công chức</option>
+                <option value="3">Giảng viên</option>
+                <option value="4">Lao công</option>
+                <option value="5">Hiphopneverdie</option>
+              </select>
+            </td>
+          </tr>
+
+          <!-- scroll list of product -->
+          <tr class="field">
+            <td><label for="product">Sản phẩm</label></td>
+            <td>
+              <select class="product" id="product" multiple>
+                <option value="1">Kem đánh răng</option>
+                <option value="2">Dầu gội</option>
+                <option value="3">Sữa tắm</option>
+                <option value="4">Bột giặt</option>
+                <option value="5">Xà bông cục</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr class="field">
+            <td><label for="participant">Dự đoán số người tham gia</label></td>
+            <td>
+              <input
+                class="text-box participant"
+                type="number"
+                id="participant"
+                name="participant"
+                placeholder=""
+              />
+            </td>
+          </tr>
+          <!-- button -->
+          <tr>
+            <td colspan="2" class="button-area">
+              <div class="button-layout">
+                <button class="confirm" type="submit">Đăng ký</button
+                ><button class="cancel" type="reset">Làm lại</button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

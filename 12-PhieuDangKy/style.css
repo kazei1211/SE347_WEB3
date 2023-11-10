@@ -1,0 +1,113 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+label {
+  margin-right: 15px;
+  text-align: left;
+}
+
+tr {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(28, 103, 176);
+}
+
+button {
+  border-radius: 10px;
+  border-width: 3px;
+  border: solid #03cafb;
+  /* gradient background */
+  background-image: linear-gradient(rgb(0, 104, 250), rgb(0, 147, 180));
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.page-title {
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+  font-size: 40px;
+  /* text with blue outline white insdie */
+  text-shadow: -2px -1px 2px #1d4ef4, -1px 1px 2px #1d4ef4, 1px 1px 1px #1d4ef4,
+    -1px -1px 2px #1d4ef4;
+}
+.container {
+  background-image: url(./images/khuyen-mai.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.field-container {
+  height: 500px;
+}
+
+.field {
+  margin: 10px 0;
+}
+
+.text-box {
+  background-color: rgba(139, 203, 255, 0.507);
+  border: 1px dotted rgb(154, 198, 242);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.address {
+  height: 100px;
+}
+
+.product {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(139, 203, 255, 0.507);
+  width: 130px;
+}
+
+.button-area {
+  margin: 10px 0;
+  padding: 10px;
+}
+.button-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.confirm {
+  margin-right: 5px;
+}
+.cancel {
+  margin-left: 5px;
+}
+
+td:first-child {
+  text-align: right;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(2px);
+}

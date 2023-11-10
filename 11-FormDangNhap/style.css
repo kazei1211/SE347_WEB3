@@ -10,8 +10,10 @@
   /* dashed rounded corner red border */
   border: 1px dashed red;
   position: absolute;
-  top: calc(50% - 170px);
-  left: calc(50% - 270px);
+  top: calc(50% - 195px);
+  left: calc(50% - 275px);
+  width: 550px;
+  height: 290px;
   padding-bottom: 75px;
   padding-top: 25px;
   padding-left: 100px;
